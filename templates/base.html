@@ -1,0 +1,85 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+    <title>Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">-->
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/animate.css' %}"/>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
+    <script src="./js/modernizr-3.5.0.min.js"></script>
+</head>
+<body>
+<html lang="en" class="no-js">
+<head>
+    <title>Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">-->
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/animate.css' %}"/>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
+    <script src="./js/modernizr-3.5.0.min.js"></script>
+</head>
+<body>
+
+
+<div class="row top-bar">
+    <div class="col-sm-1"></div>
+    <div class="col-sm-5 d-sm-block d-none" style="font-size: 13px">
+        <i class="fa fa-envelope"></i> host.support@mail.ru &nbsp;
+        <i class="fa fa-phone"></i> +996550072726 &nbsp;
+    </div>
+</div>
+
+<nav class="navbar navbar-expand-lg nav-bar navbar-light bg-light">
+    <div class="container">
+        <a class="navbar-brand" href="#">AZIM's free html<span class="navbar-brand2"> HOST</span></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div>
+    <div class="banner-text d-none d-sm-block animate-box" data-animate-effect="fadeInLeft">
+        <h2>We help you <br> to Build Your Dream Website</h2>
+        <div style="width: 45%">Get amazing results working with the best programmers, designers, writers and other top
+            online pros.
+            Powered by AZIM's free html HOST.com.<br><br>
+        </div>
+    </div>
+
+</div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto navi">
+                <li class="nav-item">
+                    <a class="nav-link nav-btn active" href="{% url 'home' %}">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-btn" href="#fh5co-pricing">HOSTING</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-btn" href="#">DOMAIN</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-btn" href="#fh5co-contact">CONTACT</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<script src="{% static 'js/jquery.min.js' %}"></script>
+<!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>-->
+<script src="{% static 'js/bootstrap.min.js' %} "></script>
+<!--<script src="https://use.fontawesome.com/8e45396e2e.js"></script>-->
+<script src="{% static 'js/fontawesome.js' %}"></script>
+<script src="{% static 'js/jquery.waypoints.min.js' %}"></script>
+<script src="{% static 'js/animate.js' %}"></script>
+
+
+{% block content %}
+
+{% endblock content %}
